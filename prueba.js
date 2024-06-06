@@ -1,8 +1,8 @@
 const assert = require('assert');
 const holaMundo = require('./hola');
 
-describe('Hola Mundo', function() {
-    it('debería imprimir "¡Hola Mundo!"', function() {
-        assert.strictEqual(holaMundo(), "¡Hola Mundo!");
+describe('Hola mundo', function() {
+    it('debería imprimir "¡Hola mundo!"', function() {
+        assert.strictEqual(holaMundo(), "¡Hola mundo!");
     });
 });
